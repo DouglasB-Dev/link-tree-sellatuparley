@@ -1,51 +1,71 @@
 export const mainChannels = [
   {
-    label: "Instagram",
-    href: "#",
-    icon: "instagram",
-    iconClassName: "bg-gradient-to-tr from-fuchsia-600 to-rose-500",
-  },
-  {
     label: "Canal WS",
     href: "#",
-    icon: "bullhorn",
+    icon: "channels",
     iconClassName: "bg-[#25D366]",
   },
+  {
+    label: "Telegram",
+    href: "#",
+    icon: "telegram",
+    iconClassName: "bg-[#229ED9]",
+  }
 ];
 
 export const contactCards = [
   {
     eyebrow: "Centro de Apuestas",
     label: "TAQUILLA ONLINE 1",
-    href: "https://wa.me/1",
+    href: "https://wa.me/04141204666",
     trailingIcon: "external-link",
   },
   {
     eyebrow: "Centro de Apuestas",
     label: "TAQUILLA ONLINE 2",
-    href: "https://wa.me/2",
+    href: "https://wa.me/04141204616",
     trailingIcon: "external-link",
   },
   {
-    eyebrow: "Atención Especial",
-    label: "CLIENTES VIP",
-    href: "https://wa.me/3",
-    trailingIcon: "star",
-    trailingIconClassName: "text-amber-400",
+    eyebrow: "Centro de Apuestas",
+    label: "TAQUILLA ONLINE 3",
+    href: "https://wa.me/04242853538",
+    trailingIcon: "external-link",
   },
   {
-    eyebrow: "Pagos y Recargas",
-    label: "SOPORTE 24/7",
-    href: "https://wa.me/4",
-    icon: "headset",
-    iconWrapperClassName:
-      "bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white",
-    trailingIcon: "chevron-right",
-    trailingIconClassName: "text-slate-400 group-hover:text-blue-600",
+    eyebrow: "Centro de Apuestas",
+    label: "TAQUILLA ONLINE 4",
+    href: "https://wa.me/04228326600",
+    trailingIcon: "external-link",
   },
+  // {
+  //   eyebrow: "Atención Especial",
+  //   label: "CLIENTES VIP",
+  //   href: "#",
+  //   trailingIcon: "star",
+  //   trailingIconClassName: "text-amber-400",
+  // },
+  // {
+  //   eyebrow: "Pagos y Recargas",
+  //   label: "SOPORTE 24/7",
+  //   href: "#",
+  //   icon: "headset",
+  //   iconWrapperClassName:
+  //     "bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white",
+  //   trailingIcon: "chevron-right",
+  //   trailingIconClassName: "text-slate-400 group-hover:text-blue-600",
+  // },
 ];
 
 export const promotions = [
+  {
+    badge: "SORTEO",
+    badgeClassName: "bg-yellow-400 text-black",
+    title: "SORTEO ANIVERSARIO",
+    description: "En nuestro #11moAniversarioSTP soltamos la casa por la ventana con un GRAN SORTEO de 100 premios 💥",
+    cta: "Quiero Participar",
+    // accent: "X2",
+  },
   {
     badge: "POPULAR",
     badgeClassName: "bg-yellow-400 text-black",

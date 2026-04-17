@@ -13,7 +13,7 @@ export function SocialNetworks({ items }) {
           <div
             className={`mb-2 flex size-12 items-center justify-center rounded-full text-white transition-transform group-hover:scale-110 ${iconClassName}`}
           >
-            <Icons name={icon} className="text-2xl" />
+            <Icons name={icon} className="text-3xl" />
           </div>
           <span className="text-lg">{label}</span>
         </Link>

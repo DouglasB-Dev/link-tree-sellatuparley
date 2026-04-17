@@ -14,9 +14,13 @@ import {
   faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ChannelsIcon } from "@/components/ui/ChannelsIcon";
+import { TelegramIcon } from "@/components/ui/TelegramIcon";
 
 type IconName =
+  | "channels"
   | "instagram"
+  | "telegram"
   | "bullhorn"
   | "whatsapp"
   | "headset"
@@ -48,5 +52,13 @@ const iconMap = {
 } as const;
 
 export function Icons({ className, name }: IconProps) {
+  if (name === "channels") {
+    return <ChannelsIcon className={className} />;
+  }
+
+  if (name === "telegram") {
+    return <TelegramIcon className={className} />;
+  }
+
   return <FontAwesomeIcon icon={iconMap[name]} className={className} />;
 }

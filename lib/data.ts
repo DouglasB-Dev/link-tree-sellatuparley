@@ -64,30 +64,30 @@ export const promotions = [
     title: "SORTEO ANIVERSARIO",
     description: "En nuestro #11moAniversarioSTP soltamos la casa por la ventana con un GRAN SORTEO de 100 premios 💥",
     cta: "Quiero Participar",
-    // accent: "X2",
+    accent: "🎉",
   },
   {
     badge: "POPULAR",
-    badgeClassName: "bg-yellow-400 text-black",
+    badgeClassName: "bg-blue-400 text-black",
     title: "BONO DE BIENVENIDA",
     description: "Recibe el doble en tu primera recarga hoy mismo.",
     cta: "Reclamar Bono",
     accent: "X2",
   },
-  {
-    badge: "DIARIO",
-    badgeClassName: "bg-blue-400 text-white",
-    title: "EL PARLEY FIJO",
-    description: "Copia nuestra jugada del día con cuotas mejoradas.",
-    cta: "Ver Jugada",
-    accentIcon: "fire",
-  },
-  {
-    title: "RECARGA DOMINICAL",
-    description: "Los domingos tus recargas valen un 20% más.",
-    cta: "Ver Calendario",
-    dashed: true,
-  },
+  // {
+  //   badge: "DIARIO",
+  //   badgeClassName: "bg-blue-400 text-white",
+  //   title: "EL PARLEY FIJO",
+  //   description: "Copia nuestra jugada del día con cuotas mejoradas.",
+  //   cta: "Ver Jugada",
+  //   accentIcon: "fire",
+  // },
+  // {
+  //   title: "RECARGA DOMINICAL",
+  //   description: "Los domingos tus recargas valen un 20% más.",
+  //   cta: "Ver Calendario",
+  //   dashed: true,
+  // },
 ];
 
 export const paymentIcons = [

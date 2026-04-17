@@ -15,7 +15,7 @@ export function Header() {
         </span>
       </div> */}
       <h2 className="mt-4 text-2xl font-black italic tracking-tight">
-        ¡LA EMOCIÓN DE GANAR!
+        ¡EL ROSTER DE LOS QUE LA ROMPEN!
       </h2>
     </header>
   );

@@ -60,7 +60,7 @@ export const contactCards = [
 export const promotions = [
   {
     badge: "SORTEO",
-    badgeClassName: "bg-yellow-400 text-black",
+    badgeClassName: "bg-red-400 text-black",
     title: "SORTEO ANIVERSARIO",
     description: "En nuestro #11moAniversarioSTP soltamos la casa por la ventana con un GRAN SORTEO de 100 premios 💥",
     cta: "Quiero Participar",

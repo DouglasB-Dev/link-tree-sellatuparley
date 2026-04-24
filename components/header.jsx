@@ -15,11 +15,11 @@ export function Header() {
         /> */}
         <Image
           src="/logo.png"
-          height={200}
-          width={1000}
+          height={1812}
+          width={12523}
           alt="logo"
           loading="eager"
-          // className="h-auto w-full max-w-140 drop-shadow-[0_0_30px_rgba(255,255,255,0.95)]"
+          className="mx-auto h-auto w-full max-w-lg"
         />
       {/* </div> */}
       {/* <div className="mt-4">

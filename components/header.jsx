@@ -1,4 +1,5 @@
 import Image from "next/image";
+import logo from "@/public/logo.png";
 
 export function Header() {
   return (
@@ -14,11 +15,10 @@ export function Header() {
           className="absolute inset-4 -z-10 rounded-full bg-white/90 blur-3xl"
         /> */}
         <Image
-          src="/logo.png"
-          height={1812}
-          width={12523}
+          src={logo}
           alt="logo"
-          loading="eager"
+          preload
+          sizes="(max-width: 640px) calc(100vw - 2.5rem), 32rem"
           className="mx-auto h-auto w-full max-w-lg"
         />
       {/* </div> */}

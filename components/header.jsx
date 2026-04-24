@@ -8,7 +8,20 @@ export function Header() {
           SELLA<span className="text-red-600">TU</span>PARLEY
         </h1>
       </div> */}
-      <Image src="/logo.png" height={200} width={1000} alt="logo" />
+      {/* <div className="relative mx-auto inline-block">
+        <div
+          aria-hidden="true"
+          className="absolute inset-4 -z-10 rounded-full bg-white/90 blur-3xl"
+        /> */}
+        <Image
+          src="/logo.png"
+          height={200}
+          width={1000}
+          alt="logo"
+          loading="eager"
+          // className="h-auto w-full max-w-140 drop-shadow-[0_0_30px_rgba(255,255,255,0.95)]"
+        />
+      {/* </div> */}
       {/* <div className="mt-4">
         <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-extrabold uppercase tracking-widest text-white">
           Oficial

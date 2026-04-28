@@ -9,7 +9,7 @@ export function Footer({ paymentIcons }) {
         ))}
       </div>
       <p className="text-[12px] uppercase leading-relaxed tracking-tight text-white/50">
-        © 2024 SELLATUPARLEY.COM | JUEGA CON RESPONSABILIDAD
+        © 2026 SELLATUPARLEY.COM | JUEGA CON RESPONSABILIDAD
         <br />
         PROHIBIDO PARA MENORES DE 18 AÑOS
       </p>

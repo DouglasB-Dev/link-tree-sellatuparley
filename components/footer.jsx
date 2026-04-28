@@ -7,7 +7,14 @@ export function Footer({ className }) {
     <footer
       className={`mt-16 text-center animate-in slide-in-from-bottom-4 duration-700 [animation-delay:360ms] ${className}`}
     >
-      <div className="mb-6 flex justify-center text-white/60">
+      <div className="mb-6 flex-col justify-center text-white/60">
+        <div className="mb-4 flex items-center justify-center gap-2">
+        <div className="h-px w-10 bg-white/30" />
+        <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-white/70">
+          ¿Te quedaste sin saldo?
+        </h2>
+        <div className="h-px w-10 bg-white/30" />
+      </div>
         <Link
           href="https://sellatuparley.com/pay_clients/screen"
           target="_blank"

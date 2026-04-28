@@ -119,9 +119,3 @@ export const promotions = [
   //   dashed: true,
   // },
 ];
-
-export const paymentIcons = [
-  { name: "visa", className: "text-3xl" },
-  { name: "mastercard", className: "text-3xl" },
-  { name: "bank", className: "text-2xl" },
-];

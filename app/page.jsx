@@ -7,7 +7,6 @@ import { Background } from "@/components/background";
 import {
   contactCards,
   mainChannels,
-  paymentIcons,
   promotions,
 } from "@/lib/data";
 
@@ -23,7 +22,7 @@ export default function HomePage() {
         <Contacts items={contactCards} />
         <Promotions items={promotions} />
 
-        <Footer paymentIcons={paymentIcons} />
+        <Footer/>
       </main>
     </div>
   );

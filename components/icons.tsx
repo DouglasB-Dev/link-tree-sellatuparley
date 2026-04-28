@@ -1,6 +1,4 @@
 import {
-  faCcMastercard,
-  faCcVisa,
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
@@ -12,6 +10,7 @@ import {
   faFire,
   faHeadset,
   faStar,
+  faWallet,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ChannelsIcon } from "@/components/ui/ChannelsIcon";
@@ -28,9 +27,8 @@ type IconName =
   | "star"
   | "chevron-right"
   | "fire"
-  | "visa"
-  | "mastercard"
-  | "bank";
+  | "bank"
+  | "wallet";
 
 interface IconProps {
   className?: string;
@@ -46,9 +44,8 @@ const iconMap = {
   star: faStar,
   "chevron-right": faChevronRight,
   fire: faFire,
-  visa: faCcVisa,
-  mastercard: faCcMastercard,
   bank: faBuildingColumns,
+  wallet: faWallet,
 } as const;
 
 export function Icons({ className, name }: IconProps) {

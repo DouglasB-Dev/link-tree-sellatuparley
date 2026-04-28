@@ -1,6 +1,6 @@
 export const mainChannels = [
   {
-    label: "Canal WS",
+    label: "Canal Whatsapp",
     href: "https://whatsapp.com/channel/0029Vb7aOyw8aKvJ6CQ7wS2C",
     icon: "channels",
     iconClassName: "bg-[#25D366]",
@@ -16,69 +16,52 @@ export const mainChannels = [
 export const contactCards = {
   whatsapp: [
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 1",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://wa.me/04141204666",
       trailingIcon: "external-link",
     },
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 2",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://wa.me/04141204616",
       trailingIcon: "external-link",
     },
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 3",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://wa.me/04242853538",
       trailingIcon: "external-link",
     },
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 4",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://wa.me/04228326600",
       trailingIcon: "external-link",
     },
-    // {
-    //   eyebrow: "Atención Especial",
-    //   label: "CLIENTES VIP",
-    //   href: "#",
-    //   trailingIcon: "star",
-    //   trailingIconClassName: "text-amber-400",
-    // },
-    // {
-    //   eyebrow: "Pagos y Recargas",
-    //   label: "SOPORTE 24/7",
-    //   href: "#",
-    //   icon: "headset",
-    //   iconWrapperClassName:
-    //     "bg-blue-100 text-blue-600 group-hover:bg-blue-600 group-hover:text-white",
-    //   trailingIcon: "chevron-right",
-    //   trailingIconClassName: "text-slate-400 group-hover:text-blue-600",
-    // },
   ],
   telegram: [
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 1",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://t.me/sellatuparleyoficial",
       trailingIcon: "external-link",
     },
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 2",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://t.me/sellatuparleyoficial2",
       trailingIcon: "external-link",
     },
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 3",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://t.me/sellatuparley3",
       trailingIcon: "external-link",
     },
     {
-      eyebrow: "Centro de Apuestas",
-      label: "TAQUILLA ONLINE 4",
+      eyebrow: "Atención al cliente y soporte",
+      label: "Chat en línea",
       href: "https://t.me/sellatuparley4",
       trailingIcon: "external-link",
     }

@@ -28,6 +28,7 @@ export function Promotions({ items }) {
               title,
               description,
               cta,
+              href,
               accent,
               accentIcon,
               dashed,
@@ -86,7 +87,9 @@ export function Promotions({ items }) {
                 </h3>
                 <p className="mb-5 text-sm text-white/70">{description}</p>
                 <Link
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group/button relative block overflow-hidden rounded-xl bg-white px-4 py-3 text-center text-lg font-bold text-blue-900 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-2xl hover:shadow-white/15"
                 >
                   <span className="pointer-events-none absolute inset-y-0 left-[-30%] w-1/3 -skew-x-12 bg-linear-to-r from-transparent via-white/80 to-transparent opacity-0 transition-all duration-500 group-hover/button:left-[105%] group-hover/button:opacity-100" />

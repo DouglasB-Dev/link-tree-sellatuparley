@@ -8,6 +8,8 @@ export function SocialNetworks({ items }) {
         <Link
           key={label}
           href={href}
+          target="_blank"
+          rel="noopener noreferrer"
           className="group flex flex-col items-center justify-center rounded-2xl border border-white/15 bg-white/10 p-5 text-sm font-bold shadow-lg shadow-slate-950/10 backdrop-blur-sm transition hover:bg-white/20"
         >
           <div

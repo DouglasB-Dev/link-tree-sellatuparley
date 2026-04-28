@@ -1,13 +1,13 @@
 export const mainChannels = [
   {
     label: "Canal WS",
-    href: "#",
+    href: "https://whatsapp.com/channel/0029Vb7aOyw8aKvJ6CQ7wS2C",
     icon: "channels",
     iconClassName: "bg-[#25D366]",
   },
   {
     label: "Telegram",
-    href: "#",
+    href: "https://t.me/sellatuparleyoficialcom",
     icon: "telegram",
     iconClassName: "bg-[#229ED9]",
   }
@@ -93,6 +93,7 @@ export const promotions = [
     description: "En nuestro #11moAniversarioSTP soltamos la casa por la ventana con un GRAN SORTEO de 100 premios 💥",
     cta: "Quiero Participar",
     accent: "🎉",
+    href: "https://www.sellatuparley.com/sorteo-11moaniversario-stp"
   },
   {
     badge: "POPULAR",
@@ -101,6 +102,7 @@ export const promotions = [
     description: "Recibe el doble en tu primera recarga hoy mismo.",
     cta: "Reclamar Bono",
     accent: "X2",
+    href: "https://crm.sellatuparley.com/landingpage/1031"
   },
   // {
   //   badge: "DIARIO",
